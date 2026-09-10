@@ -245,6 +245,30 @@ section {
   margin-top: 2px;
 }
 
+/* ---------- Intro (Our Ceremony) ---------- */
+
+.intro {
+  padding: 100px 0 88px;
+}
+
+.wrap-narrow {
+  max-width: 620px;
+}
+
+.intro-lede {
+  font-style: italic;
+  font-size: 20px;
+  color: var(--rust);
+  margin: 0 0 22px;
+}
+
+.intro p {
+  margin: 0 0 20px;
+  color: var(--ink);
+}
+
+.intro p:last-child { margin-bottom: 0; }
+
 /* ---------- Venues ---------- */
 
 .venues-grid {
@@ -379,6 +403,15 @@ section {
 }
 
 .ticket-btn:hover { transform: translateY(-2px); }
+
+.ticket-btn-soon {
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1px solid var(--ink-soft);
+  cursor: default;
+}
+
+.ticket-btn-soon:hover { transform: none; }
 
 .ticket-stub {
   width: 96px;
